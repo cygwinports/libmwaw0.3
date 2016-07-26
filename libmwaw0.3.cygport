@@ -1,6 +1,6 @@
 NAME="libmwaw0.3"
-VERSION=0.3.4
-RELEASE=3
+VERSION=0.3.8
+RELEASE=1
 CATEGORY="Libs"
 SUMMARY="Mac Classic text document filter library"
 DESCRIPTION="Libmwaw is a library providing ability to interpret and import
@@ -9,8 +9,7 @@ HOMEPAGE="http://sourceforge.net/projects/libmwaw/"
 SRC_URI="http://dev-www.libreoffice.org/src/libmwaw-${VERSION}.tar.bz2"
 SRC_DIR="libmwaw-${VERSION}"
 PATCH_URI="
-	0.1.10-vpath.patch
-	0.1.10-cygwin-cdecl.patch
+	0.3.8-vpath.patch
 "
 
 PKG_NAMES="libmwaw-tools ${NAME}_3 ${NAME}-devel ${NAME}-doc"
